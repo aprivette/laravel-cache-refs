@@ -1,6 +1,6 @@
 <?php
 
-namespace Aprivette\PurgeCacheRefs;
+namespace Aprivette\LaravelCacheRefs;
 
 use Illuminate\Support\ServiceProvider;
 
