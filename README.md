@@ -16,6 +16,10 @@ For example, let's say you have a cache key "dog" with the tag "animal".  If the
 
 ## Usage
 
+Install:
+
+`composer require aprivette/laravel-cache-refs`
+
 After installing, you can run the command like so:
 
 `php artisan refs:purge`
