@@ -1,0 +1,39 @@
+{
+    "name": "aprivette/laravel-cache-refs",
+    "description": "A Laravel Artisan command to purge cache tag refs from Redis",
+    "keywords": [
+        "aprivette",
+        "laravel-cache-refs"
+    ],
+    "homepage": "https://github.com/aprivette/laravel-cache-refs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Privette",
+            "email": "aprivette@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "illuminate/console": "^7.0|^8.0|^9.0",
+        "illuminate/support": "^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aprivette\\LaravelCacheRefs\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aprivette\\LaravelCacheRefs\\LaravelCacheRefsServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
