@@ -1,6 +1,6 @@
 <?php
 
-namespace Aprivette\PurgeCacheRefs;
+namespace Aprivette\LaravelCacheRefs;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Redis;
